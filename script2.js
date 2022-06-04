@@ -1,11 +1,17 @@
+"use strict";
 
-const logg = "Hello world";
+const options = {
+    name: 'Vasya',
+    widht: 500,
+    height: 500,
+    colors: {
+        border: 'red',
+        bg: 'white'
+    } 
+};
 
-console.log(logg.slice(4, 9));
+console.log(Object.keys(options).length);
 
-const num = 12.5
-console.log(Math.round(num));
 
-const test = "12.2px";
-console.log(parseint(test));
+
 
